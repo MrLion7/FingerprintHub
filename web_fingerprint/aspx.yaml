@@ -1,0 +1,23 @@
+name: aspx
+priority: 3
+nuclei_tags:
+  - - "aspx"
+fingerprint:
+  - path: /
+    request_method: get
+    request_headers: {}
+    request_data: ''
+    status_code: 0
+    headers:
+      Set-Cookie: ASP.NET_SessionId=
+    keyword: [ ]
+    favicon_hash: [ ]
+  - path: /
+    request_method: get
+    request_headers: { }
+    request_data: ''
+    status_code: 0
+    headers: { }
+    keyword:
+      - .aspx
+    favicon_hash: [ ]
